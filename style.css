@@ -11,6 +11,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: orange;
 }
 
 .logo {
@@ -36,13 +38,16 @@
   /* background-color: antiquewhite; */
   justify-content: center;
   align-items: center;
-  margin-bottom: 10vh;
+  background-color: orange;
 }
-
+.page {
+  height: 10vh;
+  background-image: linear-gradient(to right, black, orange);
+}
 .leftcontainer {
   overflow: hidden;
   background-color: white;
-  border: 2px solid red;
+  border: 2px sold ghostwhite;
   margin-top: 40px;
   width: 50%;
   /* display: flex;
@@ -80,6 +85,8 @@
 }
 .search {
   height: 25vh;
+  background-color: white;
+  background-image: none;
   width: 95%;
   display: flex;
   flex-direction: column;
@@ -123,6 +130,8 @@
 .selectmenu {
   border: 2px solid black;
   height: 150px;
+
+  background-color: white;
   width: 95%;
 }
 
@@ -138,4 +147,15 @@
   list-style-type: none;
   padding: 10px;
   line-height: 25px;
+}
+
+.page {
+  background-image: none;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  font-size: 30px;
+  font-color: black;
 }
